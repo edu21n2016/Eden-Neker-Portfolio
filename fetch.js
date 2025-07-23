@@ -1,6 +1,5 @@
-fs = require("fs");
+const fs = require("fs");
 const https = require("https");
-process = require("process");
 require("dotenv").config();
 
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
@@ -16,13 +15,14 @@ const ERR = {
   requestFailedMedium:
     "The request to Medium didn't succeed. Check if Medium username in your .env file is correct."
 };
+
 if (USE_GITHUB_DATA === "true") {
-  if (GITHUB_USERNAME === undefined) {
+  if (!GITHUB_USERNAME) {
     throw new Error(ERR.noUserName);
   }
 
   console.log(`Fetching profile data for ${GITHUB_USERNAME}`);
-  var data = JSON.stringify({
+  const data = JSON.stringify({
     query: `
 {
   user(login:"${GITHUB_USERNAME}") { 
@@ -57,6 +57,7 @@ if (USE_GITHUB_DATA === "true") {
 }
 `
   });
+
   const default_options = {
     hostname: "api.github.com",
     path: "/graphql",
@@ -64,7 +65,8 @@ if (USE_GITHUB_DATA === "true") {
     method: "POST",
     headers: {
       Authorization: `Bearer ${GITHUB_TOKEN}`,
-      "User-Agent": "Node"
+      "User-Agent": "Node",
+      "Content-Type": "application/json"
     }
   };
 
@@ -95,11 +97,13 @@ if (USE_GITHUB_DATA === "true") {
   req.end();
 }
 
-if (MEDIUM_USERNAME !== undefined) {
+if (MEDIUM_USERNAME && MEDIUM_USERNAME !== "YOU MEDIUM USERNAME HERE") {
   console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
   const options = {
     hostname: "api.rss2json.com",
-    path: `/v1/api.json?rss_url=https://medium.com/feed/@${MEDIUM_USERNAME}`,
+    path: `/v1/api.json?rss_url=https://medium.com/feed/@${encodeURIComponent(
+      MEDIUM_USERNAME
+    )}`,
     port: 443,
     method: "GET"
   };
@@ -109,7 +113,7 @@ if (MEDIUM_USERNAME !== undefined) {
 
     console.log(`statusCode: ${res.statusCode}`);
     if (res.statusCode !== 200) {
-      throw new Error(ERR.requestMediumFailed);
+      throw new Error(ERR.requestFailedMedium);
     }
 
     res.on("data", d => {
