@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "homepage": "https://edu21n2016.github.io/Eden-Neker-Portfolio",
+=======
+  "homepage": "https://developerfolio.js.org/",
+>>>>>>> e2b64f8ae93f8a45ec0f2b7099ef912e56f130e7
   "name": "developerfolio",
   "version": "0.1.0",
   "private": true,
@@ -15,11 +19,18 @@
     "react-headroom": "^3.0.0",
     "react-lottie": "^1.2.3",
     "react-reveal": "^1.2.2",
+<<<<<<< HEAD
     "react-scripts": "^5.0.1",
     "react-test-renderer": "^16.14.0",
     "react-twitter-embed": "^3.0.3",
     "sass": "^1.69.5"
     
+=======
+    "react-scripts": "^0.0.0",
+    "react-test-renderer": "^16.14.0",
+    "react-twitter-embed": "^3.0.3",
+    "sass": "^1.69.5"
+>>>>>>> e2b64f8ae93f8a45ec0f2b7099ef912e56f130e7
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -54,4 +65,8 @@
   "devDependencies": {
     "dotenv": "^16.4.5"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e2b64f8ae93f8a45ec0f2b7099ef912e56f130e7
