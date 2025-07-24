@@ -11,26 +11,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "NotSaksh",
-  title: "Hi All, I'm Saksh",
+  username: "EdenNeker",
+  title: "Hi All, I'm EDEN NEKER",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 Having An Experience Of Building Web And Mobile Applications With JavaScript / Reactjs / Nodejs / React Native And Some Other Cool Libraries And Frameworks."
+    "A passionate Frontend Software Developer 🚀 Having An Experience Of Building Web And Mobile Applications With JavaScript / Reactjs / Flutter / React Native/ some Nodejs/ And  Other Cool Libraries And Frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/196CVfRPH922DMB0XYrtDDmqDbx_wtcza/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/NotSaksh",
-  linkedin: "https://www.linkedin.com/in/NotSaksh/",
-  gmail: "notsakshy@gmail.com",
-  gitlab: "https://gitlab.com/NotSaksh",
-  facebook: "https://www.facebook.com/sakshyam.baral.311/",
-  medium: "	https://medium.com/@notsakshy",
-  stackoverflow: "https://stackoverflow.com/users/696969/notsaksh",
+  github: "https://github.com/edu21n2016",
+  linkedin: "https://www.linkedin.com/in/eden-neker-software-student/",
+  gmail: "eden22neker@gmail.com",
+  gitlab: " ",
+  facebook: " ",
+  medium: " ",
+  stackoverflow: " ",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -40,7 +40,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Crazy Full Stack Developer Who Want To Learn More Programming Languages",
+  subTitle:
+    "Crazy UI/UX and Frontend  Developer and some knowledge  about backend  Who Want To Learn More Programming Languages",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -60,12 +61,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Flutter",
+      fontAwesomeClassname: "fab fa-flutter"
     },
     {
       skillName: "JavaScript",
@@ -76,36 +77,24 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Node.js",
+      fontAwesomeClassname: "fab fa-node-js"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "C++",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "reactnative",
+      fontAwesomeClassname: "fab fa-react"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -117,16 +106,16 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Little Flower English School",
-      logo: require("./assets/images/lfes.png"),
-      subHeader: "Computer Science Student",
-      duration: "January 2020 - January 2021",
+      schoolName: "Addis Ababa Science and Tecnology Unversity",
+      logo: require("./assets/images/aastulogo.png"),
+      subHeader: "Software Engineer ",
+      duration: "september 2020 - January 2025",
       desc: "Participated in the Programming Challenge ",
       descBullets: [
         "I Love Coding In Schools's Computer",
         "Learning HTML In School 😂"
       ]
-    },
+    }
   ]
 };
 
@@ -140,12 +129,16 @@ const techStack = {
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "ui/ux",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Backend",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Programming",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -158,17 +151,17 @@ const workExperiences = {
   experience: [
     {
       role: "Front-End Developer",
-      company: "Hydrox",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2020 – May 2021",
-      desc: "Programming For Hydrox Development."
+      company: "Kuraz-Tec",
+      companylogo: require("./assets/images/kuraz.jpeg"),
+      date: "june 2024 – sep 2025",
+      desc: " Developer at KURAZ TECH using React. Gained valuable experience collaborating with colleagues and supervisors, tackling daily tasks, and successfully completing the major Prisco project as a final submission."
     },
     {
-      role: "Milrato Development",
-      company: "Milrato",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2020 – Sep 2020",
-      desc: "Programmer For Milrato Developments."
+      role: "Flutter Developer  ",
+      company: "GDG STUDENT CLUB",
+      companylogo: require("./assets/images/GDG.png"),
+      date: "Jan 2023 – Sep 2025",
+      desc: "Mentored beginners while also learning as a mentee. Completed the MindHub project as a hackathon entry, developed an e-commerce app as a capstone project, and contributed to various weekly tasks for GDG developments."
     }
   ]
 };
@@ -185,28 +178,30 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "Some Normal Discord Stuffs I Coded In Free Time",
+  subtitle: "Some  projects that I've worked on in my student journey",
   projects: [
     {
-      image: require("./assets/images/topic.png"),
-      projectName: "Topicz",
-      projectDesc: "Topicz Is  A Discord Bot List Site!",
+      image: require("./assets/images/yegna.jpeg"),
+      projectName: "Yegna Test Bot",
+      projectDesc:
+        "Yegna Taste Bot is our final year capstone project developed over the course of a year. It is an intelligent chatbot designed to help users discover recipes based on the ingredients they already have. The bot includes several features such as a blog section, favorite content management, and more. It aims to solve the problem of food decision-making with limited resources.!",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://topicz.xyz/"
+          name: "Visit Github",
+          url: "https://github.com/AASTUSoftwareEngineeringDepartment/HomecookingChatbot-"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nighthost.png"),
-      projectName: "Hydrox",
-      projectDesc: "Hydrox Is  A Discord Bot!",
+      image: require("./assets/images/mind hub.png"),
+      projectName: "MindHup mobile a] ",
+      projectDesc:
+        "During the GDG program, we worked on developing a mobile application with rich functionality aimed at helping students manage and reduce mental health struggles. !",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit the short video",
+          url: "https://drive.google.com/file/d/1cyXOgCR0dVm-jAxQxz9BlXMOXEYYnjeu/view?usp=sharing"
         }
       ]
     }
@@ -224,29 +219,29 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Developer Program Member",
+      title: "GDG Developer club",
       subtitle:
-        "Member Of Github Programming Team Member.",
-      image: require("./assets/images/github.png"),
+        "Member Of GDG student developer Team  as beginner track mentor and frontend.",
+      image: require("./assets/images/GDG.png"),
       footerLink: [
         {
-          name: "Certification",
-          url: "https://github.com/NotSaksh"
-        },
-      ]
-    },
-    {
-      title: "Discord Bot Developer",
-      subtitle:
-        "Member Of Discord Developing Company.",
-      image: require("./assets/images/discord.png"),
-      footerLink: [
-        {
-          name: "View Discord Server",
-          url: "https://discord.gg/7YtDujvD"
+          name: " view the Certification",
+          url: "https://drive.google.com/drive/folders/1Qhgvz3bSB-R6a6oDnDjXYIUseM29Bhn6?usp=drive_link"
         }
       ]
     },
+    {
+      title: "Photoshop course",
+      subtitle:
+        "Student of the Korean Volunteers program, participated in various projects and tests.",
+      image: require("./assets/images/photoshop.jpeg"),
+      footerLink: [
+        {
+          name: "View the certificate",
+          url: "https://drive.google.com/file/d/1cGxzN-bcnkU1dMnadZ-INFla8FytcWmr/view?usp=sharing"
+        }
+      ]
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -266,7 +261,7 @@ const blogSection = {
         "You Can Learn Coding From Diffent Sites / Videos But I Suggest To Use W3 School."
     },
     {
-      url: "https://discord.gg/7YtDujvD",
+      url: "https://www.w3schools.com/",
       title: "Why React Is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
@@ -278,17 +273,15 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "Talks",
-  subtitle: emoji(
-    "I Love To Share My Limited Knowledge 🙄"
-  ),
+  title: "COOMING SOON!!! \n Talks",
+  subtitle: emoji("I Love To Share My Limited Knowledge 🙄"),
 
   talks: [
     {
       title: "Learn JavaScript / HTML",
-      subtitle: "Chandragadhi Birtamode 57204",
-      slides_url: "https://bit.ly/notsaksh",
-      event_url: "https://www.facebook.com/sakshyam.baral.311/"
+      subtitle: "COMMING SOON",
+      slides_url: " ",
+      event_url: " "
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -296,28 +289,29 @@ const talkSection = {
 
 // Podcast Section
 
- const podcastSection = {
+const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle:
+    "I LOVE TO TALK ABOUT Churches, Technology , true story And I love to share my knowledge",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss A Project Or Just Want To Say Hi? My Inbox Is Open For All.",
-  email_address: "notsakshy@gmail.com"
+  email_address: "eden22neker@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "@NotBeluga69", //Replace "twitter" with your twitter username without @
+  userName: " ", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
