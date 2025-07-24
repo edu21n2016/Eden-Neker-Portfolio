@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-# Eden-Neker-Portfolio
-This file contain  Html, CSS , Bootstrap , Tailwind , JavaScript, React that descripe my education and some experience 
-=======
-# 🧑‍💻 Developer Portfolio Template
+# 🧑‍💻 # Eden-Neker-Portfolio Template
 
-A clean, beautiful, and responsive personal portfolio template for developers!
+A clean, beautiful, and responsive personal portfolio template!
 
 <p align="center">
   <img src="https://cdn.discordapp.com/attachments/864734303433523200/914555903133495336/unknown.png" alt="Portfolio Preview" width="80%" />
@@ -14,7 +10,7 @@ Easily customize `src/portfolio.js` to display your own details. You can also ch
 
 ---
 
-> **Made with ❤️ by [Sakshyam Baral](https://sakshyambaral.com.np)**
+> **Made BY ❤️ Eden Neker**
 
 ---
 
@@ -46,7 +42,7 @@ Easily customize `src/portfolio.js` to display your own details. You can also ch
 ✔️ Podcast  
 ✔️ Contact Me  
 ✔️ Twitter Timeline  
-✔️ GitHub Profile  
+✔️ GitHub Profile
 
 Live Demo: [developerfolio.js.org](https://developerfolio.js.org/)
 
@@ -56,8 +52,8 @@ Live Demo: [developerfolio.js.org](https://developerfolio.js.org/)
 
 ### Requirements
 
-- Node.js (v10.16.0 or higher)
-- npm (v6.9.0 or higher)
+- Node.js
+- npm
 - Git
 - Docker (optional)
 
@@ -173,14 +169,6 @@ Follow: https://create-react-app.dev/docs/deployment/#github-pages
 
 ## 🧠 For the Future
 
-- Auto-fetch from LinkedIn  
-- Move to Gatsby  
-- Add more themes and layouts  
-
-Pull requests are welcome! [Contribute here](https://github.com/NotSaksh/Developer-Portfolio-Template/pulls)
-
----
-
-> Created by **Sakshyam Baral**  
-> 🌐 [sakshyambaral.com.np](https://sakshyambaral.com.np)
->>>>>>> e2b64f8ae93f8a45ec0f2b7099ef912e56f130e7
+- Auto-fetch from LinkedIn
+- Move to Gatsby
+- Add more themes and layouts
