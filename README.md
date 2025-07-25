@@ -7,8 +7,6 @@ A clean, beautiful, and responsive personal portfolio template!
 
 ---
 
-
-
 ## ✨ Features
 
 ✔️ Summary & About Me  
