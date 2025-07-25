@@ -195,7 +195,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/mind hub.png"),
-      projectName: "MindHup mobile a] ",
+      projectName: "MindHup mobile app ",
       projectDesc:
         "During the GDG program, we worked on developing a mobile application with rich functionality aimed at helping students manage and reduce mental health struggles. !",
       footerLink: [
