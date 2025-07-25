@@ -9,7 +9,6 @@ import emoji from "react-easy-emoji";
 const illustration = {
   animated: true // Set to false to use static SVG
 };
-
 const greeting = {
   username: "EdenNeker",
   title: "Hi All, I'm EDEN NEKER",
